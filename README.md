@@ -10,7 +10,7 @@ Use the ROC AUC to determine which preselection cuts to add.
     `python hadder.py -d [sample labels] -H [output folder name] -p [input folder name] -y [year]`
     e.g.
     `python hadder.py -d 2018_QCD,2018_WJets,2018_ZJets,2018_TT -H preStudy_moreAngV_Run2_hadded -p preStudy_moreAngVars_Run2/output-files -y 2018`
-4. Run
+4. Modify the `cutsImportant` list variable in `plotStack.py` if necessary. Then run
     `python plotStack.py -d [input folder name]`
     e.g.
     `python plotStack.py -d preStudy_moreAngV_Run2`
